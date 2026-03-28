@@ -94,6 +94,15 @@ const CoursePage = () => {
             </div>
 
             <div className="hidden md:flex items-center gap-3">
+              <a
+                href="https://t.me/happi10_app_bot"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-bold bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
+              >
+                <i className="fab fa-telegram-plane" />
+                Открыть мини-приложение
+              </a>
               {user && (
                 <span className="text-sm text-muted-foreground font-medium truncate max-w-[180px]">
                   <i className="fas fa-user-circle mr-1" />
@@ -104,7 +113,7 @@ const CoursePage = () => {
                 {Math.min(unlockedUpTo, TOTAL)}/{TOTAL} пройдено
               </span>
               <a
-                href="https://t.me/+yoqsWMwnRNQwZmU6"
+                href="https://t.me/TataZakzheva"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-bold bg-yellow-400 text-black hover:opacity-90 transition-opacity"
@@ -151,7 +160,16 @@ const CoursePage = () => {
                 Вернуться на сайт
               </a>
               <a
-                href="https://t.me/yourtelegram"
+                href="https://t.me/happi10_app_bot"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 rounded-lg px-4 py-3 text-sm font-bold bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
+              >
+                <i className="fab fa-telegram-plane" />
+                Открыть мини-приложение
+              </a>
+              <a
+                href="https://t.me/TataZakzheva"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 rounded-lg px-4 py-3 text-sm font-bold bg-yellow-400 text-black hover:opacity-90 transition-opacity"
